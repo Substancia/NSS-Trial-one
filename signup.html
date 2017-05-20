@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Tricks </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="myscripts.js"></script>
+
+</head>
+<body>
+<div id="header"><center><img id="headicon" src="icon.png"><br><h1><a id="head1" href="">NATIONAL SERVICE SCHEME ,IIT MADRAS</a><a id="head2" href="">NSS,IIT MADRAS</a></h1><h3>Not me, but you</h3></center><div id="navbar">
+	<ul>
+		<li><a href="">HOME</a></li>
+		<li><a href="">ABOUT US</a></li>
+		<li><a href="">BLOGS</a></li>
+		<li><a href="">SIGN IN</a></li>
+	</ul>
+</div></div>
+<div class="rightsidebar"><center>
+
+
+</div>
+<div class="main"><center><h1>NSS SIGN UP</h1>
+
+	<form action="make.php" onsubmit="return validateForm()" name="myForm" method="post" >
+		<label><b>First name</b></label><div id="fullname">
+		<input name="fname" id="fname" type="text" class="inputvalues" placeholder="First name" required/><br><br><input name="sname" id="sname" type="text" class="inputvalues" placeholder="Surname" required/><br><br>
+		</div>
+		<input name="email" id="email" type="text" class="inputvalues" placeholder="Email address" required/><br><br>
+		<b>Sex :</b>
+		<select name="gender" id="gender">
+	    <option value="none">Select</option>
+	    <option value="male">Male</option>
+	    <option value="Female">Female</option>
+	    <option value="LGBT">LGBT</option>
+	  	</select><br><br>
+		<input name="password" type="password" placeholder="New password" required/><br><br>
+		<input name="cpassword" type="password" placeholder="Confirm password" required/><br><br>
+		<input class="button1" type="submit" value="Sign up"><br><br>
+
+
+		</center></div>
+<div id="footer"><center>
+&hearts; Made by Joeydash and Jivin<br>&copy;2017 NSS,IIT Madras</center></div>
+
+</body>
+</html>

@@ -1,0 +1,122 @@
+/*######################BODY#########################*/
+body {
+	background-color: #bfc3c9;
+    margin: 0px;
+    font-family: Verdana,Georgia,serif;
+    font-size: 14px;
+}
+#header{
+	background-color: #17243a;
+	height: 200px;
+	margin: 5px;
+	border-radius: 5px;
+	color: #fff;
+	padding: 20px;
+}
+#head1{
+	color: #fff;
+	text-decoration: none;
+}
+#head1:hover{
+	color: #7e95ba;
+	text-decoration: none;
+}
+#head2{
+	color: #fff;
+	text-decoration: none;
+}
+#head2:hover{
+	color: #7e95ba;
+	text-decoration: none;
+}
+
+#navbar ul {
+	padding: 5px;
+	list-style-type: none;
+	text-align: center;
+	background-color:#17243a; 
+	margin: 10px;
+	border-radius: 5px;
+}
+#navbar ul li {
+	display: inline;
+
+}
+#navbar ul li a {
+	text-decoration: none;
+	font-family: Arial;
+	padding: .2em 1em;
+	color: #fff;
+/*	border-radius: 5px;*/
+}
+#navbar ul li a:hover {
+	color:#17243a;
+	background-color:#fff;
+}
+#headicon{
+	height: 80px;
+	width: 80px;
+
+}
+.main{
+	background-color: #eff0f2;
+	border-radius: 5px;
+	padding: 5px;
+    margin-left: 5px;
+    margin-right: 350px;
+    padding: 20px;
+}
+.rightsidebar{
+	width: 300px;
+	background-color: #eff0f2;
+	float: right;
+	padding: 20px;
+	margin-right: 5px;
+	border-radius: 5px;
+	margin-bottom: 5px;
+	font-family: Arial;
+}
+#footer{
+	float: bottom;
+	height: 50px;
+	background-color: #17243a;
+	margin: 5px;
+	border-radius: 5px;
+	color: #fff;
+	padding: 20px;
+	clear: both;
+}
+#fullname{
+	display: inline;
+}
+/*######################MEDIA QUERIES#########################*/
+@media(max-width: 800px){
+	#head1{
+		display: none;
+	}
+	.rightsidebar{
+		display: none;
+	}
+	.main{
+	    margin: 5px;
+	}
+}
+
+@media(min-width: 800px){
+	#head2{
+		display: none;
+	}
+}
+.button1 {
+    background-color: #4CAF50; /* Green */
+    border: 10px;
+    border-color: black;
+    color: white;
+    padding: 12px 28px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.button1:hover {
+  opacity: 0.6;
+}
+/*######################HEADINGS#########################*/
