@@ -1,5 +1,6 @@
 body {margin:0;
-background-color:#f2f2f2;}
+background-color:#f2f2f2;
+height:100%;}
 
 #myBtn {
   display: none;
@@ -89,7 +90,10 @@ img {
 	font-size: 24px;
 	color: #f2f2f2;
 	padding: 20px 0px;
-
+	top: auto;
+	bottom: 0;
+	position: relative;
+	text-align: center;
 }
 
 .chip {
